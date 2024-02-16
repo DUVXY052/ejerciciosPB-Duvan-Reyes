@@ -1,3 +1,4 @@
+import java.lang.foreign.Arena;
 import java.util.*;
 public class DuvanReyesEjercicio5{
 
@@ -8,15 +9,15 @@ public class DuvanReyesEjercicio5{
         System.out.println("AREA DE UN ROMBO");
         System.out.println("");
         
-        System.out.println("Ingrese la longitud de la 1ra diagonal: ");
+        System.out.println("Ingrese la longitud de la diagonal 1: ");
 
-        double DIAG1=leer.nextDouble();
+        float DIAG1=leer.nextFloat();
 
-        System.out.println("Ingrese la longitud de la 2da diagonal: ");
+        System.out.println("Ingrese la longitud de la diagonal 2: ");
 
-        double DIAG2=leer.nextDouble();
+        float DIAG2=leer.nextFloat();
 
-        double AREA= (DIAG1 * DIAG2) / 2;
+        float AREA= (DIAG1 * DIAG2) / 2;
 
         System.out.println("El area del rombo es de: " + AREA);
 
