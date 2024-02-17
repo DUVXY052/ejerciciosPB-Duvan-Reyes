@@ -1,5 +1,5 @@
 import java.util.*;
-public class DuvanReyesEjercicio9 {
+public class DuvanReyesEjercicio10 {
 
     public static void main(String[] abc) {
         Scanner inter=new Scanner(System.in);
