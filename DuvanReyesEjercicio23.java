@@ -34,7 +34,7 @@ public class DuvanReyesEjercicio23 {
             int pos2=inter.nextInt();
             if (pos2==dig2) {
                 System.out.println("Verde");
-            } else if(pos2 == dig1 || pos1==dig3){
+            } else if(pos2 == dig1 || pos2==dig3){
                 System.out.println("Amarillo");
             }else{
                 System.out.println("Rojo");
@@ -44,7 +44,7 @@ public class DuvanReyesEjercicio23 {
             int pos3=inter.nextInt();
             if (pos3==dig3) {
                 System.out.println("Verde");
-            } else if(pos3== dig1 || pos1==dig2){
+            } else if(pos3== dig1 || pos3==dig2){
                 System.out.println("Amarillo");
             }else{
                 System.out.println("Rojo");
