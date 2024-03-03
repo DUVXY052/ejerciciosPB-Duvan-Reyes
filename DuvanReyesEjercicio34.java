@@ -15,7 +15,7 @@ public class DuvanReyesEjercicio34 {
             System.out.println("El total a pagar es de: " + Descuento);
             
         } else {
-            System.out.println("No hay escuento");
+            System.out.println("No hay descuento");
         }
     }
 }
