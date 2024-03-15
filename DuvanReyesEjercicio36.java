@@ -3,7 +3,7 @@ public class DuvanReyesEjercicio36 {
     public static void main(String abc[]) {
         Scanner inter= new Scanner(System.in);
         
-        double tarifa = 15.00; 
+        double tarifa = 15.00;
 
         System.out.println("Ingrese el numero de horas estacionado");
         

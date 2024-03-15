@@ -5,8 +5,8 @@ public class DuvanReyesEjercicio49 {
 
         String letter=("Duvan");
 
-        int Firword= letter.indexOf(letter);
+        char Firstw= letter.charAt(0);
 
-        System.out.println("La ultima palabra de " + letter + " es " + Firword);
+        System.out.println("La primera letra de " + letter + " es " + Firstw);
     }
 }
