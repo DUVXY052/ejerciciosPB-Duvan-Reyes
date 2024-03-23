@@ -11,9 +11,12 @@ public class DuvanReyesEjercicio67 {
 
         for(int i=1; i <= n1; i++){
             System.out.print(i);
-            System.out.print(" X ");
 
             fact*=i;
+            
+            if (i < n1){
+                System.out.print(" x ");
+            }
 
         }System.out.println("= " + fact + " Es la factorial del numero " + n1);
           

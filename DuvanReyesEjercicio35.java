@@ -11,8 +11,10 @@ public class DuvanReyesEjercicio35 {
         int PxHrs= Hwork * Trif;
 
         if (Hwork > 40) {
-            double incrm= PxHrs + (PxHrs * 0.50);
-            System.out.println("El trabajo por horas extras recibira " + incrm);
+            double horasEx= Hwork - 40;
+            double incrm= horasEx * (Trif * 0.50);
+            double PxHrExt= PxHrs + incrm;
+            System.out.println("El trabajo por horas extras recibira " + PxHrExt);
         } else {
             System.out.println("El pago total sera de " + PxHrs +"$");
         }

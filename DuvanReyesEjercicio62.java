@@ -13,20 +13,18 @@ public class DuvanReyesEjercicio62 {
         for (int i = 1; i <= 24; i += 4) {
             System.out.println("Ingrese la temperatura a la hora " + i);
             temp = inter.nextInt();
-            suma += temp; // Acumula las temperaturas
+            suma += temp;
 
-            // Compara con la temperatura más alta actual
             if (temp > hight) {
                 hight = temp;
             }
 
-            // Compara con la temperatura más baja actual
             if (temp < low) {
                 low = temp;
             }
         }
 
-        int medtemp = suma / 6; // Calcula la temperatura media alta
+        int medtemp = suma / 6;
 
         System.out.println("La temperatura más alta del día es de: " + hight);
         System.out.println("La temperatura más baja del día es de: " + low);
