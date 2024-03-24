@@ -40,8 +40,8 @@ public class DuvanReyesEjercicio33 {
             double Pwom= (double) Women / empleados * 100;
 
             System.out.println("Promedio de los salarios " + promS);
-            System.out.println("Porcentaje de hombres " + Pmen +"%");
-            System.out.println("Porcentaje de mujeres " + Pwom +"%");
+            System.out.println("Porcentaje de hombres " + Math.round(Pmen) +"%");
+            System.out.println("Porcentaje de mujeres " + Math.round(Pwom) +"%");
             System.out.println("Personas con salario mayor a 700: " + salario);
 
     }
