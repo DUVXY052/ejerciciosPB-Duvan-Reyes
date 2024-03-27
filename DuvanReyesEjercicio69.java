@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class DuvanReyesEjercicio69 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner inter = new Scanner(System.in);
         System.out.print("Ingresa un numero: ");
-        int n = scanner.nextInt();
+        int n = inter.nextInt();
 
         int suma = 0;
         for (int i = 1; i <= n; i++) {
