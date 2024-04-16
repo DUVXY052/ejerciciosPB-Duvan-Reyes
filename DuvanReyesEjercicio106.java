@@ -4,10 +4,10 @@ public class DuvanReyesEjercicio106 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Ingrese el primer número (m): ");
+        System.out.print("Ingrese el primer número: ");
         int m = input.nextInt();
 
-        System.out.print("Ingrese el segundo número (n): ");
+        System.out.print("Ingrese el segundo número: ");
         int n = input.nextInt();
 
         if (m < n) {
@@ -22,7 +22,7 @@ public class DuvanReyesEjercicio106 {
             n = r;
         }
 
-        System.out.println("El máximo común divisor (MCD) es: " + m);
+        System.out.println("El máximo común divisor es: " + m);
     }
 }
 
